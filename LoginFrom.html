@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome</h1>
+        <p>Please enter your login and password</p>
+        <form action="">
+            <div class="password-container">
+                <div class="password-wrapper" style="position: relative; display: flex; align-items: center;">
+                    <input class="input_text" type="text" placeholder="Your login">
+                    <input id="password" class="input_text" type="password" placeholder="Password">
+                    <div class="icon-container">
+                        <img id="togglePassword" src="src/Showpass.png" alt="Show Password" class="show-pass-icon">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <p>Forgot your password?</p>
+    </div>
+    <script src="script.js"></script>
+</html>
