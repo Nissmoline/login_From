@@ -18,7 +18,7 @@ This project is a **modern login form** featuring a sleek **3D design** and a **
 
 ## 📸 Preview
 
-![Login Form Screenshot](images/screenshot.png)
+![Login Form Screenshot](src/Screen.png)
 
 *Not: Replace `images/screenshot.png` with the relative path to your screenshot within the repositoy*
 
